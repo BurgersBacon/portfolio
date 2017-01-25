@@ -194,6 +194,18 @@ h3{
   background-image: url(../images/projects/impav.png);
   background-size: 100% auto;
 }
+.project-image.yettu{
+  background-image: url(../images/websites/yettu.png);
+  background-size: 100% auto;
+}
+.project-image.compuelec{
+  background-image: url(../images/websites/compuelec.png);
+  background-size: 100% auto;
+}
+.project-image.impav2{
+  background-image: url(../images/websites/impav.png);
+  background-size: 100% auto;
+}
 
 .projects-items a{
   position: inherit;
@@ -237,4 +249,18 @@ section#projects h3 {
 section#projects {
     padding: 100px 0;
     background-color: #f3f3f3;
+}
+.websites{
+  background-color: rgb(14, 14, 14);
+  padding: 100px 0;
+}
+.websites h3 {
+    color: white;
+    text-align: center;
+}
+.websites h5{
+  color:white;
+}
+.websites p{
+  color:white;
 }
