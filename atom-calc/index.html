@@ -1,0 +1,31 @@
+<html>
+<head>
+	<meta charset="UTF-8">	
+	<title>¿Cuánto pesa?</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/personalized.css">
+</head>
+<body>
+	<div class="layer">
+		<div class="container">
+			<div class="row">
+				<div class="conv">
+						<h4>Ingrese la formula molecular de la cual se quiere calcular el peso.</h4>
+						<form id="calculate" >
+							<input id="formula" class="form-control" type="text" name="molecula" Placeholder="Formula molecular">
+							<button class="btn btn-primary" type="submit"><span class="glyphicon glyphicon-cogs"></span> Calcular</button>
+						</form>
+						<div class="alert alert-success hide" id="message" role="alert">
+							El peso atómico total de la molecula es: <strong><span id="total"></span></strong>
+						</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+
+	<script type="text/javascript" src="assets/js/jquery-2.1.4.min.js"></script>
+	<script type="text/javascript" src="assets/js/calculate.js"></script>
+
+</body>
+</html>
