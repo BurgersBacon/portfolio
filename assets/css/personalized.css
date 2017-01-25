@@ -264,3 +264,7 @@ section#projects {
 .websites p{
   color:white;
 }
+.follow a {
+    color: #333333;
+    text-decoration: none;
+}
